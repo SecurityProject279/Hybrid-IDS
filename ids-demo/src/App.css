@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.App-header h2 {
+  margin-bottom: 20px;
+}
+
+.App-header p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.App-header textarea {
+  width: 80%;
+  max-width: 600px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: monospace;
+}
+
+.App-header button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.App-header button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.App-header h3 {
+  margin-bottom: 10px;
+}
