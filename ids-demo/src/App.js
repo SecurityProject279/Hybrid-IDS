@@ -55,7 +55,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>Network Intrusion Detection System</h2>
-        <p>Paste your 74-feature list below (including [ and ] brackets):</p>
+        <p>Paste your feature list below (including [ and ] brackets):</p>
 
         <textarea
           value={features}
